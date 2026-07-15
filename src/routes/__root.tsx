@@ -15,6 +15,7 @@ import { Navbar } from "../components/site/Navbar";
 import { Footer } from "../components/site/Footer";
 import { ThemeProvider } from "../components/site/ThemeProvider";
 
+
 function NotFoundComponent() {
   return (
     <div className="flex min-h-screen items-center justify-center gradient-hero px-4">
@@ -124,7 +125,31 @@ function RootShell({ children }: { children: ReactNode }) {
     <html lang="en">
       <head>
         <HeadContent />
+
+        {/* Google Analytics 4 */}
+        <script
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=G-KH9JBXVLF2"
+        />
+
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+
+              function gtag() {
+                window.dataLayer.push(arguments);
+              }
+
+              gtag('js', new Date());
+
+              gtag('config', 'G-KH9JBXVLF2');
+            `,
+          }}
+        />
+
       </head>
+
       <body>
         {children}
         <Scripts />
