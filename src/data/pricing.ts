@@ -1,0 +1,46 @@
+export const pricingPlans = [
+  {
+    name: "Launch",
+    monthly: 2500,
+    yearly: 25000,
+    tagline: "For early-stage brands ready to build a foundation.",
+    features: [
+      "Full technical audit",
+      "Keyword strategy",
+      "4 optimised pages / month",
+      "2 editorial backlinks",
+      "Monthly strategy call",
+    ],
+    highlighted: false,
+  },
+  {
+    name: "Grow",
+    monthly: 5500,
+    yearly: 55000,
+    tagline: "For teams ready to make organic their #1 channel.",
+    features: [
+      "Everything in Launch",
+      "10 optimised pages / month",
+      "6 editorial backlinks",
+      "Digital PR sprints",
+      "Bi-weekly strategy call",
+      "Dedicated Slack channel",
+    ],
+    highlighted: true,
+  },
+  {
+    name: "Scale",
+    monthly: 12000,
+    yearly: 120000,
+    tagline: "For market leaders defending and extending a moat.",
+    features: [
+      "Everything in Grow",
+      "25+ optimised pages / month",
+      "12+ editorial backlinks",
+      "Custom data & dashboards",
+      "Weekly strategy call",
+      "Fractional Head of SEO",
+    ],
+    highlighted: false,
+  },
+];
