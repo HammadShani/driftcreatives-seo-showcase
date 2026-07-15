@@ -86,7 +86,7 @@ function BlogDetail() {
 
         <div className="container-page mt-12 max-w-3xl">
           <div className="prose-styles space-y-8">
-            {post.content.map((section) => (
+            {post.content.map((section: { heading: string; body: string }) => (
               <section key={section.heading}>
                 <h2 className="text-2xl font-bold tracking-tight md:text-3xl">
                   {section.heading}

@@ -67,7 +67,7 @@ function ServiceDetail() {
           <div className="rounded-3xl glass-card p-8">
             <h2 className="text-2xl font-bold">What's included</h2>
             <ul className="mt-6 space-y-3">
-              {service.features.map((f) => (
+              {service.features.map((f: string) => (
                 <li key={f} className="flex items-start gap-3">
                   <span className="mt-1 grid h-5 w-5 place-items-center rounded-full gradient-primary text-primary-foreground">
                     <Check className="h-3 w-3" />
@@ -80,7 +80,7 @@ function ServiceDetail() {
           <div className="rounded-3xl glass-card p-8">
             <h2 className="text-2xl font-bold">Our process</h2>
             <ol className="mt-6 space-y-5">
-              {service.process.map((p, i) => (
+              {service.process.map((p: { title: string; description: string }, i: number) => (
                 <li key={p.title} className="flex gap-4">
                   <div className="grid h-9 w-9 shrink-0 place-items-center rounded-full gradient-primary text-sm font-semibold text-primary-foreground">
                     {i + 1}
