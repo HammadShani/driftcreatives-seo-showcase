@@ -81,11 +81,11 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "DriftCreatives — Premium SEO Agency for Ambitious Brands" },
+      { title: "Seo Agency In Pakistan | Professional Seo Services | Driftcreatives" },
       {
         name: "description",
         content:
-          "DriftCreatives is a premium SEO agency helping ambitious brands rank higher, grow faster, and dominate search in 2026 and beyond.",
+          "DriftCreatives is a professional SEO agency in Pakistan offering technical SEO, on-page SEO, keyword research, and SEO services to help businesses rank higher on Google.",
       },
       { name: "author", content: "DriftCreatives" },
       { property: "og:title", content: "DriftCreatives — Premium SEO Agency" },

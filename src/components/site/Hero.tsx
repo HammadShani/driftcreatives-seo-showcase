@@ -18,12 +18,11 @@ export function Hero() {
             Now booking Q2 2026 partnerships
           </span>
           <h1 className="mt-6 text-4xl font-bold tracking-tight md:text-6xl lg:text-7xl">
-            The premium SEO agency for{" "}
-            <span className="gradient-text">ambitious brands</span>.
+            Professional SEO Agency That Helps{" "}
+            <span className="gradient-text">Ambitious Brands</span>.
           </h1>
           <p className="mx-auto mt-6 max-w-2xl text-base leading-relaxed text-muted-foreground md:text-lg">
-            We build compounding organic growth engines for the brands defining the next decade.
-            Data-driven SEO, Google Ads, and web performance — engineered around your revenue.
+            We help businesses increase Google rankings, drive organic traffic, and generate more leads through professional SEO services, technical SEO, and data-driven strategies.
           </p>
           <div className="mt-10 flex flex-wrap items-center justify-center gap-3">
             <Link

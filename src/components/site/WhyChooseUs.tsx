@@ -3,12 +3,12 @@ import { Award, LineChart, Rocket, ShieldCheck, Sparkles, Users } from "lucide-r
 import { SectionHeader } from "./Section";
 
 const items = [
-  { icon: LineChart, title: "Data-driven, not opinion-led", body: "Every decision is backed by real search data and business outcomes." },
-  { icon: Users, title: "Senior team, no hand-offs", body: "You work directly with strategists who have shipped for global brands." },
-  { icon: Rocket, title: "Compounding, not sprints", body: "We build systems that keep paying off long after the retainer ends." },
-  { icon: ShieldCheck, title: "Fully white-hat", body: "No PBNs, no shortcuts. Just sustainable growth built to last." },
-  { icon: Award, title: "Proven at scale", body: "180+ clients, $200M+ in tracked revenue attributable to our work." },
-  { icon: Sparkles, title: "Obsessive craft", body: "We sweat the details others ignore — because they compound." },
+  { icon: LineChart, title: "Data-Driven SEO Strategies", body: "Every SEO strategy is based on keyword research, analytics, and real search data." },
+  { icon: Users, title: "Experienced SEO Specialists", body: "Work directly with experienced SEO specialists who deliver long-term growth." },
+  { icon: Rocket, title: "Long-Term SEO Growth", body: "Our SEO strategies build sustainable organic traffic that continues to grow over time." },
+  { icon: ShieldCheck, title: "Fully white-hat", body: "We follow Google's White Hat SEO techniques for safe and sustainable rankings." },
+  { icon: Award, title: "Proven SEO Results", body: "180+ successful projects with measurable SEO growth and increased organic traffic." },
+  { icon: Sparkles, title: "Continuous SEO Optimization", body: "We continuously monitor and improve your website for better rankings and performance." },
 ];
 
 export function WhyChooseUs() {
@@ -16,8 +16,8 @@ export function WhyChooseUs() {
     <section className="container-page py-20">
       <SectionHeader
         eyebrow="Why DriftCreatives"
-        title="A partner that thinks like an owner."
-        description="We're not a link farm or a content mill. We're a small, senior team obsessed with your growth."
+        title="Why Choose DriftCreatives as Your SEO Agency?"
+        description="We combine technical expertise, data-driven SEO strategies, and transparent reporting to help businesses improve rankings, increase organic traffic, and achieve long-term growth."
       />
       <div className="mt-14 grid gap-5 md:grid-cols-2 lg:grid-cols-3">
         {items.map((it, i) => {

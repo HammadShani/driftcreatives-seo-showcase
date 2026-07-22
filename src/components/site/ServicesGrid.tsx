@@ -34,7 +34,7 @@ export function ServicesGrid() {
                 {s.short}
               </p>
               <div className="relative mt-6 flex items-center gap-1 text-sm font-medium text-primary">
-                Learn more
+                {s.learnMore}
                 <ArrowUpRight className="h-4 w-4 transition-transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
               </div>
             </Link>

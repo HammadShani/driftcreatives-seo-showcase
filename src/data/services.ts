@@ -26,8 +26,9 @@ export type Service = {
 export const services: Service[] = [
   {
     slug: "seo",
-    title: "SEO",
+    title: "SEO Services",
     short: "End-to-end organic growth strategy",
+    learnMore: "Learn More About SEO Services",
     description:
       "A complete organic growth engine — audits, keyword research, content strategy, technical fixes and authority building — engineered to compound revenue quarter after quarter.",
     icon: Search,
@@ -47,8 +48,9 @@ export const services: Service[] = [
   },
   {
     slug: "on-page-seo",
-    title: "On-Page SEO",
+    title: "On-Page SEO Services",
     short: "Content optimised for humans and crawlers",
+    learnMore: "Learn More About On-Page SEO Services",
     description:
       "We optimise every element on your pages — titles, meta, headings, internal links and content depth — so search engines and readers instantly understand your value.",
     icon: FileText,
@@ -63,8 +65,9 @@ export const services: Service[] = [
   },
   {
     slug: "technical-seo",
-    title: "Technical SEO",
+    title: "Technical SEO Services",
     short: "A crawlable, indexable, lightning-fast site",
+    learnMore: "Learn More About Technical SEO Services",
     description:
       "Core Web Vitals, crawlability, indexation, JavaScript rendering, structured data — the invisible foundation that lets great content actually rank.",
     icon: Cog,
@@ -79,8 +82,9 @@ export const services: Service[] = [
   },
   {
     slug: "off-page-seo",
-    title: "Off-Page SEO",
+    title: "Off-Page SEO Services",
     short: "Authority through real, editorial links",
+    learnMore: "Learn More About Off-Page SEO Services",
     description:
       "Digital PR, editorial link building and brand mentions from publications your audience actually reads. No spam, no PBNs — only links you'd be proud to show off.",
     icon: Link2,
@@ -95,8 +99,9 @@ export const services: Service[] = [
   },
   {
     slug: "local-seo",
-    title: "Local SEO",
+    title: "Local SEO Services",
     short: "Own the map pack in your city",
+    learnMore: "Learn More About Local SEO Services",
     description:
       "Google Business Profile optimisation, citations, reviews and local landing pages that put your business at the top of local search — where high-intent customers convert.",
     icon: MapPin,
@@ -111,8 +116,9 @@ export const services: Service[] = [
   },
   {
     slug: "semantic-seo",
-    title: "Semantic SEO",
+    title: "Semantic SEO Services",
     short: "Topical authority at entity level",
+    learnMore: "Learn More About Semantic SEO Services",
     description:
       "We map your topics, entities and semantic relationships so search engines see you as the definitive source in your niche — the foundation for AI search and SGE visibility.",
     icon: Brain,
@@ -127,8 +133,9 @@ export const services: Service[] = [
   },
   {
     slug: "schema-markup",
-    title: "Schema Markup",
+    title: "Schema Markup Services",
     short: "Rich results and AI-ready structured data",
+    learnMore: "Learn More About Schema Markup Services",
     description:
       "Custom schema implementation across your site — organisation, articles, products, FAQs, reviews — for rich results, better CTR and AI-search visibility.",
     icon: Code2,
@@ -143,8 +150,9 @@ export const services: Service[] = [
   },
   {
     slug: "google-ads",
-    title: "Google Ads",
+    title: "Google Ads Services",
     short: "Paid performance that pays for itself",
+    learnMore: "Learn More About Google Ads Services",
     description:
       "Full-funnel Google Ads — search, PMax, display and YouTube — engineered around ROAS, not vanity clicks. Every dollar tracked, every conversion optimised.",
     icon: Megaphone,
@@ -159,8 +167,9 @@ export const services: Service[] = [
   },
   {
     slug: "website-development",
-    title: "Website Development",
+    title: "Website Development ",
     short: "Fast, beautiful, SEO-native websites",
+    learnMore: "Learn More About Website Development",
     description:
       "Bespoke websites built on modern frameworks — designed for conversion, engineered for speed, and SEO-native from the first line of code.",
     icon: Globe,
@@ -177,6 +186,7 @@ export const services: Service[] = [
     slug: "website-speed-optimization",
     title: "Website Speed Optimization",
     short: "Perfect Core Web Vitals, guaranteed",
+    learnMore: "Learn More About Website Speed Optimization",
     description:
       "We shave seconds off load times — image optimisation, code splitting, caching, CDN, LCP fixes — so your users don't bounce and Google doesn't punish you.",
     icon: Gauge,

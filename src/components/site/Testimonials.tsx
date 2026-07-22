@@ -12,10 +12,10 @@ export function Testimonials() {
 
   return (
     <section className="container-page py-20">
-      <SectionHeader eyebrow="Testimonials" title="Loved by teams who care about growth." />
+      <SectionHeader eyebrow="Testimonials" title="Client Reviews & SEO Success Stories" />
       <div className="mx-auto mt-12 max-w-3xl">
         <div className="relative rounded-3xl glass-card p-8 md:p-12">
-          <Quote className="absolute -top-4 left-8 h-10 w-10 text-primary" />
+          <Quote className="absolute -top-4 left-8 h-10 w-10 text-primary " />
           <AnimatePresence mode="wait">
             <motion.div
               key={i}

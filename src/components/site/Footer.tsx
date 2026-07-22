@@ -69,16 +69,16 @@ export function Footer() {
               <li className="flex items-start gap-2">
                 <Mail className="mt-0.5 h-4 w-4 shrink-0 text-primary" />
                 <a href="mailto:hello@driftcreatives.com" className="hover:text-foreground">
-                  hello@driftcreatives.com
+                  hs6291989@gmail.com
                 </a>
               </li>
               <li className="flex items-start gap-2">
                 <Phone className="mt-0.5 h-4 w-4 shrink-0 text-primary" />
-                <a href="tel:+15551234567" className="hover:text-foreground">+1 (555) 123-4567</a>
+                <a href="tel:+923192204329" className="hover:text-foreground">+92 3192204329</a>
               </li>
               <li className="flex items-start gap-2">
                 <MapPin className="mt-0.5 h-4 w-4 shrink-0 text-primary" />
-                <span>128 Market Street, Suite 400, San Francisco, CA</span>
+                <span>6th Road Rawalpinindi , Pakistan  </span>
               </li>
             </ul>
           </div>

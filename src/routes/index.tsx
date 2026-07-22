@@ -30,8 +30,8 @@ function Home() {
       <section id="services" className="container-page py-20">
         <SectionHeader
           eyebrow="Services"
-          title="Everything you need to win in search."
-          description="A full-stack SEO offering — technical, content, off-page, local and performance — under one senior team."
+          title="Professional SEO Services We Offer."
+          description="We provide complete SEO services including keyword research, technical SEO, on-page SEO, off-page SEO, semantic SEO, and website optimization to improve your Google rankings and organic traffic."
         />
         <ServicesGrid />
       </section>
@@ -43,8 +43,8 @@ function Home() {
       <section className="container-page py-20">
         <SectionHeader
           eyebrow="Case Studies"
-          title="Real brands. Real results."
-          description="The receipts, not the promises."
+          title="SEO Case Studies & Success Stories"
+          description="See how our SEO strategies helped businesses improve Google rankings, increase organic traffic, and generate more qualified leads."
         />
         <div className="mt-14 grid gap-6 md:grid-cols-2">
           {caseStudies.slice(0, 4).map((c, i) => (
@@ -64,7 +64,7 @@ function Home() {
                     src={c.image}
                     alt={c.client}
                     loading="lazy"
-                    className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
+                    className="h-fullF w-full object-cover transition-transform duration-500 group-hover:scale-105"
                   />
                 </div>
                 <div className="p-6">
@@ -91,8 +91,8 @@ function Home() {
       <section className="container-page py-20">
         <SectionHeader
           eyebrow="Insights"
-          title="Latest from the blog."
-          description="Playbooks, teardowns and field notes from our team."
+          title="Latest SEO Insights & Guides"
+          description="Explore our latest SEO guides, keyword research tips, technical SEO tutorials, and digital marketing insights to improve your Google rankings and organic traffic."
         />
         <div className="mt-14 grid gap-6 md:grid-cols-2 lg:grid-cols-3">
           {blogs.slice(0, 3).map((b) => (

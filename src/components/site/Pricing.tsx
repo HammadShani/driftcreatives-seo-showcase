@@ -12,8 +12,8 @@ export function Pricing() {
     <section id="pricing" className="container-page py-20">
       <SectionHeader
         eyebrow="Pricing"
-        title="Plans that scale with your ambition."
-        description="Transparent monthly retainers. Cancel anytime. No hidden fees."
+        title="Professional SEO Pricing Plans."
+        description="Choose the right SEO package for your business. Our plans include keyword research, on-page SEO, technical SEO, and ongoing optimization to improve your Google rankings."
       />
       <div className="mt-8 flex items-center justify-center gap-3">
         <span className={cn("text-sm", !yearly && "font-semibold")}>Monthly</span>
@@ -108,7 +108,7 @@ export function Pricing() {
                   : "gradient-primary text-primary-foreground",
               )}
             >
-              Get started
+              Get Your SEO Plan
             </Link>
           </motion.div>
         ))}
