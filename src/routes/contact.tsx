@@ -99,19 +99,24 @@ function ContactPage() {
           </div>
 
           <div className="space-y-4">
-            <InfoCard icon={Mail} title="Email us" body="hello@driftcreatives.com" href="mailto:hello@driftcreatives.com" />
-            <InfoCard icon={Phone} title="Call us" body="+1 (555) 123-4567" href="tel:+15551234567" />
+            <InfoCard
+  icon={Mail}
+  title="Email us"
+  body="hs6291989@gmail.com"
+  href="https://mail.google.com/mail/?view=cm&fs=1&to=hs6291989@gmail.com"
+/>
+            <InfoCard icon={Phone} title="Call us" body="+92 319 2204329" href="tel:+923192204329" />
             <InfoCard
               icon={MessageCircle}
               title="WhatsApp"
               body="Chat with us instantly"
-              href="https://wa.me/15551234567"
+              href="https://wa.me/923192204329"
               accent
             />
             <InfoCard
               icon={MapPin}
               title="Visit"
-              body="128 Market Street, Suite 400, San Francisco, CA"
+              body="Six Road, Rawalpindi, Pakistan"
             />
             <InfoCard
               icon={Clock}
@@ -140,7 +145,7 @@ function ContactPage() {
           <div className="relative aspect-[16/6] w-full">
             <iframe
               title="Our location"
-              src="https://www.google.com/maps?q=San+Francisco&output=embed"
+              src="https://www.google.com/maps?q=Six+Road,+Rawalpindi,+Pakistan&output=embed"
               className="absolute inset-0 h-full w-full grayscale-[30%]"
               loading="lazy"
             />
